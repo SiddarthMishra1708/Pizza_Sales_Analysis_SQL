@@ -7,6 +7,7 @@
 4. pizzas - This dataset contains the following information: pizza_id,	pizza_type_id,	size and price
 #### Using these 4 datasets we have to perform data analysis in SQL and answer the questions that we received in a text file along with the datasets.
 #### These are the following queries that need to be solved:
+https://github.com/SiddarthMishra1708/SQL-project/blob/main/Questions.txt
 
 **BASIC**:
 1. Retrieve the total number of orders placed.
