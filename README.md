@@ -33,4 +33,17 @@
 MySQL Workbench 8.0 CE
 ## Database Schema
 ![DBOSCHEMA](https://github.com/SiddarthMishra1708/SQL-project/assets/170062307/67f708fc-9e00-4152-b64e-20d219156deb)
-
+## Solution to the quesries
+### Basic
+#### 1. To retrieve the total number of orders placed
+    SELECT 
+    COUNT(order_id) AS Total_Orders
+    FROM
+    order_details;
+#### 2. To Calculate the total revenue generated from pizza sales
+    SELECT 
+    ROUND(SUM(order_details.quantity * pizzas.price),0) AS Revenue
+    FROM
+    order_details
+    JOIN
+    pizzas ON order_details.pizza_id = pizzas.pizza_id       
