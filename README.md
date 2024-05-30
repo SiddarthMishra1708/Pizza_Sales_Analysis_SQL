@@ -7,7 +7,7 @@
 4. pizzas - This dataset contains the following information: pizza_id,	pizza_type_id,	size and price
 #### Using these 4 datasets we have to perform data analysis in SQL and answer the questions that we received in a text file along with the datasets.
 #### These are the following queries that need to be solved:
-https://github.com/SiddarthMishra1708/SQL-project/blob/main/Questions.txt
+***Questions Link*** - https://github.com/SiddarthMishra1708/SQL-project/blob/main/Questions.txt
 
 **BASIC**:
 1. Retrieve the total number of orders placed.
@@ -29,5 +29,7 @@ https://github.com/SiddarthMishra1708/SQL-project/blob/main/Questions.txt
 2. Analyze the cumulative revenue generated over time.
 3. Determine the top 3 most ordered pizza types based on revenue for each pizza category.
 
+## Tools Used
+MySQL Workbench 8.0 CE
 
 
