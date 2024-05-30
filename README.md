@@ -31,5 +31,6 @@
 
 ## Tools Used
 MySQL Workbench 8.0 CE
-
+## Database Schema
+![DBOSCHEMA](https://github.com/SiddarthMishra1708/SQL-project/assets/170062307/67f708fc-9e00-4152-b64e-20d219156deb)
 
