@@ -168,7 +168,29 @@ MySQL Workbench 8.0 CE
     		orders ON orders.order_id = order_details.order_id
     	GROUP BY orders.order_date) AS sales
 #### 3. To determine the top 3 most ordered pizza types based on revenue for each pizza category
-
+    SELECT
+    	name,
+        category,
+        revenue
+    FROM
+    	(SELECT
+    		name,
+            revenue,
+    		category,
+    		RANK() OVER(PARTITION BY category ORDER BY revenue DESC) AS pizza_rank
+    	FROM 
+    		(SELECT 
+    			pizza_types.name,
+    			pizza_types.category,
+    			ROUND(SUM(order_details.quantity * pizzas.price),0) AS revenue
+    		FROM
+    			order_details
+    				JOIN
+    			pizzas ON pizzas.pizza_id = order_details.pizza_id
+    				JOIN
+    			pizza_types ON pizzas.pizza_type_id = pizza_types.pizza_type_id
+    		GROUP BY pizza_types.name , pizza_types.category) AS a) AS b
+    WHERE pizza_rank <= 3;
 
 
 
