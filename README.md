@@ -1,4 +1,4 @@
-# SQL for Data Analysis Project
+# Pizza Sales Analysis (SQL)
 ## Description
 #### We have been given 4 sets of pizza sales data. Namely... 
 1. [order_details.csv](https://github.com/user-attachments/files/15520271/order_details.csv) - This dataset contains the following information: order_details_id, 	order_id,	 pizza_id  and  quantity 
