@@ -1,10 +1,10 @@
 # SQL for Data Analysis Project
 ## Description
 #### We have been given 4 sets of pizza sales data. Namely... 
-1. order_details - This dataset contains the following information: order_details_id, 	order_id,	 pizza_id  and  quantity
-2. orders - This dataset contains the following information: order_id,	date and time
-3. pizza_types - This dataset contains the following information: pizza_type_id,	name,	category and ingredients
-4. pizzas - This dataset contains the following information: pizza_id,	pizza_type_id,	size and price
+1. [order_details.csv](https://github.com/user-attachments/files/15520271/order_details.csv) - This dataset contains the following information: order_details_id, 	order_id,	 pizza_id  and  quantity 
+2. [orders.csv](https://github.com/user-attachments/files/15520272/orders.csv) - This dataset contains the following information: order_id,	date and time 
+3. [pizza_types.csv](https://github.com/user-attachments/files/15520273/pizza_types.csv) - This dataset contains the following information: pizza_type_id,	name,	category and ingredients 
+4. [pizzas.csv](https://github.com/user-attachments/files/15520274/pizzas.csv) - This dataset contains the following information: pizza_id,	pizza_type_id,	size and price 
 #### Using these 4 datasets we have to perform data analysis in SQL and answer the questions that we received in a text file along with the datasets.
 #### These are the following queries that need to be solved:
 ***Questions Link*** - https://github.com/SiddarthMishra1708/SQL-project/blob/main/Questions.txt
