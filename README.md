@@ -192,6 +192,15 @@ MySQL Workbench 8.0 CE
     		GROUP BY pizza_types.name , pizza_types.category) AS a) AS b
     WHERE pizza_rank <= 3;
 
+## Challenges faced
+### Window Functions
+#### Since I am a beginner in using SQL functions, I had to learn from scratch the window functions such as OVER(), RANK(), PARTITION BY, etc. And due to my lack of knowledge, these functions made reading and understanding the code difficult.
+### Nested Code
+#### Nested code was the biggest challenge I faced since it became more complex as I nested more and more. One small mistake and the code showed error and It took me a great deal of time to get used to it.
+### GitHub
+#### Another challenge I faced during this project is the fact that this is my first project that I upload on GitHub. I didn't know how to optimize the code for GitHub, how to prepare a report for the same and didn't have any presentational skills.
+
+
 
 
 
